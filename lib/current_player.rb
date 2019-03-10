@@ -15,7 +15,6 @@ end
 
 
 def current_player(board)
-  counter = 0
   counter = turn_count(board)
   result = "O"
   
