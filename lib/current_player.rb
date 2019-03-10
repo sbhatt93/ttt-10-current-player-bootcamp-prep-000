@@ -21,8 +21,6 @@ def current_player(board)
   
   if counter % 2 == 0
     result = "X"
-  else
-    result = "O"
   end
 
 result
