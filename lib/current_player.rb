@@ -18,7 +18,7 @@ def current_player(board)
   counter = turn_count(board)
   result = "O"
   
-  if counter.password_field_tag?
+  if counter.odd?
     result = "X"
   end
 
