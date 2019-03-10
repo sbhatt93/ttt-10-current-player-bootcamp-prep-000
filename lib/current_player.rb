@@ -12,3 +12,7 @@ end
 counter
 
 end
+
+
+def current_player(board)
+  counter = 0
